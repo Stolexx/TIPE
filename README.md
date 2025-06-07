@@ -52,3 +52,14 @@ Comment concilier les contraintes économiques et écologiques dans la dispositi
 [3] COLORADO ENERGY OFFICE : EV Fast Charging Corridors : _https://energyoffice.colorado.gov/transportation/grants-incentives/ev-fast-charging-corridors_ <br>
 [4] IGRAPH TEAM : igraph C library : _https://igraph.org/c/_ <br>
 [5] GUANGYOU ZHOU, ZHIWEI ZHU, SUMEI LUO : Location optimization of electric vehicle charging stations: Based on cost model and genetic algorithm : _https://www.sciencedirect.com/science/article/pii/S0360544222003401_
+
+## DOT (Déroulé Opérationnel du TIPE)
+
+1. _Août 2024_ : Découverte par hasard de l'ingénierie des réseaux routiers (optimisation des intersections, échangeur en trèfle, etc). Volonté de trouver une problématique mêlant transition écologique et ingénierie des réseaux routiers.
+2. _Fin Octobre 2024_ : Recherche et lecture d'articles scientifiques tels que [5]. Début de la formalisation et mise en place des premières idées de modélisation du problème, notamment avec [4].
+3. _Début Novembre 2024_ : L'algorithme utilisé dans le TIPE est NP-dur, ce qui implique qu'il n'existe pas d'implémentation générale simple. Lecture de [2] et évaluation des différentes approches pour résoudre ce problème.
+4. _Décembre 2024_ : Finalisation du MCOT. Précision des enjeux abordés dans le TIPE. Finalisation du plan de la présentation.
+5. _Début Janvier 2025_ : Implémentation du système de simulation de circulation routière et de statistiques, en utilisant notamment [1]. Finalisation de l'implémentation de l'algorithme du k-médian.
+6. _Février 2025_ : Fin de la programmation. Premières recherche sur cas concret sur lequel tester l'algorithme avec [3]. Première tentative (échouée) de récupérer le réseau routier du Colorado et de le transformer en graphe.
+7. _Fin Mai 2025_ : Téléchargement et transformation du réseau routier du Colorado en graphe avec succès. Exécution du programme, récolte de données, et fin de la partie expérimentale du TIPE.
+8. _Début Juin 2025_ : Finalisation du diaporama et autres documents relatifs au TIPE.
